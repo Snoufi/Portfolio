@@ -179,7 +179,7 @@ footer {
   top: 240px;
   bottom: 9%;
   background: #be4346;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -200,10 +200,9 @@ footer {
   background: #4298ce;
 }
 
-.ContainerC>img{
+.ContainerC > img {
   width: 100px;
 }
-
 
 /* PAGE RÉALISATIONS */
 
