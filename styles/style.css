@@ -200,6 +200,11 @@ footer {
   background: #4298ce;
 }
 
+.ContainerC>img{
+  width: 100px;
+}
+
+
 /* PAGE RÉALISATIONS */
 
 .ContainerR {
