@@ -197,7 +197,9 @@ footer {
 }
 
 .ContainerC > img {
-  width: 100px;
+  width: 70px;
+  margin: 7px;
+  display: block;
 }
 
 /* PAGE RÉALISATIONS */
