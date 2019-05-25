@@ -122,18 +122,26 @@ footer {
 /* PAGE CONTACT */
 
 .Formulaire {
-  position: absolute;
   width: 738px;
   height: 651px;
-  left: 31%;
+  margin: auto;
   background: #73757d;
   border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 21px;
   letter-spacing: 0.1em;
+}
+
+input {
+  width: 50%;
+  margin: 15px auto;
+  height: 25px;
 }
 
 .Message {
