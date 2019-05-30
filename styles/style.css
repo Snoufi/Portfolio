@@ -4,6 +4,7 @@ body {
   font-family: "Roboto";
   display: grid;
   grid-template-rows: 1fr;
+  min-height: 100vh; 
 }
 
 h1 {
@@ -175,6 +176,17 @@ input, textarea{
   color: #f5f5f4;
 }
 
+.bouton:hover{
+  cursor: pointer;
+  background: #474955;
+  transition-duration: 0.3s;
+}
+
+.bouton:not( :hover ) {
+  background: #30323d;
+  transition-duration: 0.3s;
+}
+
 /* PAGE PARCOURS */
 
 .ContainerP {
@@ -236,9 +248,13 @@ input, textarea{
   max-width: 1000px;
   max-height: 800px;
   margin: 20px auto;
-  padding: 5px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .fonds img{
   width: 300px;
+  margin: 10px;
 }

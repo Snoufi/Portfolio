@@ -11,24 +11,35 @@
 </head>
 
 <body>
-  <a href="Index.html"><img src="styles/logo Home.png" alt="Acceuil" class="Home" /></a>
-  <a href="styles/CV_Timoté_Desanti.png" download="CV Desanti Timoté"><img src="styles/logo CV.png" alt="CV" class="CV" /></a>
-  <a href="Contact.html"><img src="styles/enveloppe.png" alt="Mail" class="enveloppe" /></a>
-  <a href="https://www.linkedin.com/in/timot%C3%A9-desanti-ba1215181/?locale=fr_FR" target="_blank"><img src="styles/Logo linkedin.png" alt="LinkedIn" class="linkedin" /></a>
+  <div>
+    <a href="Index.html"><img src="styles/logo Home.png" alt="Acceuil" class="Home" /></a>
+    <a href="styles/CV_Timoté_Desanti.png" download="CV Desanti Timoté"><img src="styles/logo CV.png" alt="CV"
+        class="CV" /></a>
+    <a href="Contact.html"><img src="styles/enveloppe.png" alt="Mail" class="enveloppe" /></a>
+    <a href="https://www.linkedin.com/in/timot%C3%A9-desanti-ba1215181/?locale=fr_FR" target="_blank"><img
+        src="styles/Logo linkedin.png" alt="LinkedIn" class="linkedin" /></a>
 
 
-  <h1>Contact</h1>
-  <div class="Formulaire">
-    Nom et Prénom<br />
-    <input type="text" name="Nom" /><br />
-    Adresse mail<br />
-    <input type="text" name="Mail" /><br />
-    Message<br />
-    <textarea type="text" class="Message" name="Message" placeholder="Votre message"></textarea><br />
-    <input class="bouton" type="submit" value="Envoyer" />
+    <h1>Contact</h1>
+    <div class="Formulaire">
+      Nom et Prénom<br />
+      <input type="text" name="Nom" /><br />
+      Adresse mail<br />
+      <input type="text" name="Mail" /><br />
+      Message<br />
+      <textarea type="text" class="Message" name="Message" placeholder="Votre message"></textarea><br />
+      <input class="bouton" type="submit" value="Envoyer" onclick="send()"/>
+    </div>
   </div>
-
   <footer>© 2019 Timoté Desanti All Right Reserved.</footer>
+
+  <script>
+  
+    function send(){
+      document.querySelector(".Formulaire").innerHTML+= "Votre message à bien été envoyé !"
+    }
+  
+  </script>
 </body>
 
 </html>
