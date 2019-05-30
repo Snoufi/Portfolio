@@ -14,7 +14,7 @@ h1 {
   letter-spacing: 0.1em;
   color: #ffffff;
   margin-top: 90px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 h2 {
@@ -112,7 +112,7 @@ h2 {
 
 footer {
   width: 100%;
-  padding: 20px 0;
+  margin-bottom: 10px;
   font-size: 13px;
   text-align: center;
   letter-spacing: 0.1em;
@@ -193,8 +193,8 @@ input, textarea{
   min-height: 500px;
   height: auto;
   background: #be4346;
-  font-size: 18px;
-  line-height: 21px;
+  font-size: 24px;
+  line-height: 26px;
   text-align: center;
   letter-spacing: 0.1em;
   padding: 80px 60px;
