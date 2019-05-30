@@ -245,7 +245,7 @@ input, textarea{
 .fonds{
   background-color: #f5f5f4;
   border-radius: 20px;
-  max-width: 1000px;
+  max-width: 1500px;
   max-height: 800px;
   margin: 20px auto;
   padding: 10px;
@@ -255,6 +255,16 @@ input, textarea{
 }
 
 .fonds img{
-  width: 300px;
+  width: 500px;
+  margin: 10px;
+}
+
+.dessin img{
+  width: 350px;
+  margin: 10px;
+}
+
+.granddessin img{
+  width: 1000px;
   margin: 10px;
 }
